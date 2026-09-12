@@ -6,7 +6,7 @@ import "./Footer.css";
 export function Footer() {
   return (
     <footer className="border-t border-white/10 bg-[#0F0F12]">
-      <div className="mx-auto max-w-[1220px] px-4 sm:px-6 lg:px-8 py-10">
+      <div className="mx-auto max-w-[1600px] px-4 sm:px-6 lg:px-8 py-10">
         <div className="flex flex-col sm:flex-row gap-6 justify-between items-start sm:items-center">
           <div className="flex items-center gap-3">
             <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-violet-600 to-cyan-500 flex items-center justify-center text-white font-bold text-xs">PS</div>

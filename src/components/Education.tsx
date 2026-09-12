@@ -6,7 +6,7 @@ import "./Education.css";
 export function Education() {
   return (
     <section className="py-16 sm:py-20">
-      <div className="mx-auto max-w-[1220px] px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-[1600px] px-4 sm:px-6 lg:px-8">
         <Reveal>
           <h2 className="text-[28px] sm:text-[36px] font-bold tracking-tight text-white">Education.</h2>
         </Reveal>

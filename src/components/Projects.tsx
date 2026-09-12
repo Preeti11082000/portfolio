@@ -7,7 +7,7 @@ import "./Projects.css";
 export function Projects() {
   return (
     <section id="projects" className="py-16 sm:py-24">
-      <div className="mx-auto max-w-[1220px] px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-[1600px] px-4 sm:px-6 lg:px-8">
         <Reveal>
           <div className="flex items-center gap-3 mb-3">
             <span className="w-8 h-[2px] bg-violet-500 rounded-full" />

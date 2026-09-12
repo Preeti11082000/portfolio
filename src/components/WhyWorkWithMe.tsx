@@ -7,7 +7,7 @@ const iconMap: Record<string, LucideIcon> = { Layers, Zap, Boxes, Code2, Users, 
 export function WhyWorkWithMe() {
   return (
     <section className="py-16 sm:py-24 bg-[#0F1115] border-y border-white/[0.06]">
-      <div className="mx-auto max-w-[1220px] px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-[1600px] px-4 sm:px-6 lg:px-8">
         <Reveal>
           <div className="text-center max-w-2xl mx-auto">
             <span className="text-xs tracking-[0.2em] font-semibold text-violet-300 uppercase">How I Work</span>

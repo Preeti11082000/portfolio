@@ -14,7 +14,7 @@ const icons: Record<string, string> = {
 export function Skills() {
   return (
     <section id="skills" className="py-16 sm:py-24 bg-[#0F1115] border-y border-white/[0.06]">
-      <div className="mx-auto max-w-[1220px] px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-[1600px] px-4 sm:px-6 lg:px-8">
         <Reveal>
           <div className="flex items-center gap-3 mb-3">
             <span className="w-8 h-[2px] bg-cyan-400 rounded-full" />

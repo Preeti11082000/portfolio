@@ -21,7 +21,7 @@ export function Contact() {
 
   return (
     <section id="contact" className="py-16 sm:py-24">
-      <div className="mx-auto max-w-[1220px] px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-[1600px] px-4 sm:px-6 lg:px-8">
         <Reveal>
           <div className="rounded-[24px] sm:rounded-[32px] bg-gradient-to-br from-violet-600 via-indigo-600 to-cyan-600 p-[1px]">
             <div className="rounded-[23px] sm:rounded-[31px] bg-[#0A0A0A] overflow-hidden">
