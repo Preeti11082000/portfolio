@@ -1,6 +1,7 @@
 import { personal } from "../data/portfolio";
 import { Mail, Phone } from "lucide-react";
 import { GithubIcon } from "./GithubIcon";
+import "./Footer.css";
 
 export function Footer() {
   return (

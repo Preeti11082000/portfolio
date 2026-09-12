@@ -1,0 +1,118 @@
+@reference "tailwindcss";
+/* About — semantic classes */
+
+.about {
+  @apply py-16 sm:py-24 border-t border-white/[0.06];
+}
+
+.about__container {
+  @apply mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-6 xl:px-8;
+}
+
+.about__eyebrow {
+  @apply flex items-center gap-3 mb-3;
+}
+
+.about__eyebrow-line {
+  @apply w-8 h-[2px] bg-violet-500 rounded-full;
+}
+
+.about__eyebrow-text {
+  @apply text-xs tracking-[0.2em] font-semibold text-violet-300 uppercase;
+}
+
+.about__title {
+  @apply text-[32px] sm:text-[40px] font-bold tracking-tight text-white leading-none;
+}
+
+.about__grid {
+  @apply mt-10 grid lg:grid-cols-[1.15fr_0.85fr] gap-6 lg:gap-6 items-stretch;
+}
+
+.about__card {
+  @apply flex-1 rounded-[24px] bg-[#12131A] border border-white/10 p-6 sm:p-8 flex flex-col;
+}
+
+.about__text {
+  @apply text-[15.5px] leading-relaxed text-white/70;
+}
+
+.about__text--secondary {
+  @apply mt-4 text-[15px] leading-relaxed text-white/60;
+}
+
+.about__features {
+  @apply mt-7 grid grid-cols-2 gap-3;
+}
+
+.about__feature {
+  @apply flex items-center gap-2.5 rounded-xl bg-white/[0.04] border border-white/[0.06] px-3.5 py-3.5 text-sm font-medium text-white/85;
+}
+
+.about__footer {
+  @apply mt-auto pt-6 border-t border-white/[0.06] flex items-center justify-between gap-4;
+}
+
+.about__footer-text {
+  @apply text-xs font-mono tracking-wide text-white/35;
+}
+
+.about__stats {
+  @apply grid grid-cols-2 gap-4;
+}
+
+.about__stat {
+  @apply rounded-2xl bg-gradient-to-b from-white/[0.07] to-white/[0.02] border border-white/10 p-5 backdrop-blur;
+}
+
+.about__stat-value {
+  @apply text-2xl font-bold text-white tracking-tight;
+}
+
+.about__stat-label {
+  @apply text-xs font-medium tracking-wide uppercase text-white/50 mt-1;
+}
+
+.about__skills {
+  @apply flex-1 rounded-[22px] bg-gradient-to-br from-violet-600 via-indigo-600 to-violet-600 p-[1.5px] shadow-[0_10px_40px_rgba(124,58,237,0.22)] flex;
+}
+
+.about__skills-inner {
+  @apply flex-1 rounded-[20px] bg-[#0F0F14] p-6 flex flex-col;
+}
+
+.about__skills-header {
+  @apply flex items-center gap-2;
+}
+
+.about__skills-icon {
+  @apply w-6 h-6 rounded-lg bg-violet-600 flex items-center justify-center;
+}
+
+.about__skills-title {
+  @apply font-mono text-xs tracking-widest font-semibold text-violet-300 uppercase;
+}
+
+.about__skills-list {
+  @apply mt-4 flex flex-wrap gap-2.5;
+}
+
+.about__skill {
+  @apply px-4 py-2 rounded-full bg-white text-black text-[14px] font-extrabold tracking-tight leading-none shadow-[0_2px_12px_rgba(255,255,255,0.18)] ring-1 ring-white/10;
+}
+
+.about__skills-desc {
+  @apply mt-4 text-[13.5px] leading-relaxed text-white/60;
+}
+
+.about__highlights {
+  @apply rounded-2xl bg-[#12131A] border border-white/10 p-5 font-mono text-sm;
+}
+
+.about__highlights-title {
+  @apply text-white/30 text-xs mb-2;
+}
+
+.about__highlights-list {
+  @apply space-y-1.5 text-white/70 text-xs;
+}

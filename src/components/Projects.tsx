@@ -2,6 +2,7 @@ import { Reveal } from "./Reveal";
 import { projects } from "../data/portfolio";
 import { ExternalLink, Sparkles } from "lucide-react";
 import { GithubIcon } from "./GithubIcon";
+import "./Projects.css";
 
 export function Projects() {
   return (

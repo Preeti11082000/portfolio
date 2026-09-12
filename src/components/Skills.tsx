@@ -1,5 +1,6 @@
 import { Reveal } from "./Reveal";
 import { skills } from "../data/portfolio";
+import "./Skills.css";
 
 const icons: Record<string, string> = {
   Frontend: "◈",

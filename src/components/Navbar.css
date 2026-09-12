@@ -1,0 +1,106 @@
+@reference "tailwindcss";
+/* Navbar — semantic classes */
+
+.navbar {
+  @apply fixed inset-x-0 top-0 z-50 transition-all border-b;
+}
+
+.navbar--transparent {
+  @apply bg-transparent border-transparent;
+}
+
+.navbar--scrolled {
+  @apply bg-[#0A0A0A]/75 backdrop-blur-xl border-white/[0.06];
+}
+
+.navbar__container {
+  @apply mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-6 xl:px-8 h-[64px] sm:h-[68px] flex items-center gap-3 lg:gap-4 xl:gap-6;
+}
+
+.navbar__brand {
+  @apply flex items-center gap-2.5 shrink-0;
+}
+
+.navbar__logo {
+  @apply w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-gradient-to-br from-violet-600 to-indigo-500 flex items-center justify-center text-white font-bold text-[12px] sm:text-[13px] shadow-sm;
+}
+
+.navbar__name {
+  @apply font-semibold tracking-tight text-white text-[15px] sm:text-[16px] whitespace-nowrap;
+}
+
+.navbar__role {
+  @apply hidden 2xl:inline-flex items-center text-[10px] font-medium tracking-[0.14em] uppercase text-white/35 whitespace-nowrap transition;
+}
+
+.navbar__brand:hover .navbar__role {
+  @apply text-white/55;
+}
+
+.navbar__nav {
+  @apply hidden lg:flex items-center justify-center flex-1 gap-0.5 xl:gap-1 min-w-0;
+}
+
+.navbar__link {
+  @apply px-2.5 xl:px-3.5 py-1.5 xl:py-2 rounded-full text-[13px] xl:text-[13.5px] font-medium whitespace-nowrap transition text-white/55 hover:text-white hover:bg-white/[0.07];
+}
+
+.navbar__link--active {
+  @apply bg-white text-black shadow-sm hover:bg-white hover:text-black;
+}
+
+.navbar__actions {
+  @apply hidden lg:flex items-center gap-2 xl:gap-2.5 shrink-0;
+}
+
+.navbar__icon-btn {
+  @apply w-8 h-8 xl:w-9 xl:h-9 rounded-full bg-white/[0.08] hover:bg-white/[0.13] border border-white/10 flex items-center justify-center text-white/65 hover:text-white transition;
+}
+
+.navbar__btn {
+  @apply inline-flex items-center gap-1.5 px-4 xl:px-5 py-2 xl:py-[9px] rounded-full text-[12.5px] xl:text-[13px] font-semibold transition whitespace-nowrap;
+}
+
+.navbar__btn--secondary {
+  @apply hidden xl:inline-flex bg-white text-black hover:bg-white/90;
+}
+
+.navbar__btn--primary {
+  @apply bg-[#6D28D9] hover:bg-[#7C3AED] text-white shadow-md shadow-violet-900/25;
+}
+
+.navbar__mobile-toggle {
+  @apply lg:hidden w-10 h-10 rounded-full bg-white text-black flex items-center justify-center;
+}
+
+.navbar__mobile-panel {
+  @apply lg:hidden absolute inset-x-0 top-[64px] bg-[#0F0F12] border-b border-white/10;
+}
+
+.navbar__mobile-links {
+  @apply px-4 py-6 space-y-1;
+}
+
+.navbar__mobile-link {
+  @apply flex items-center justify-between px-4 py-3.5 rounded-xl text-[15px] font-medium text-white/80 bg-white/[0.04] border border-white/5;
+}
+
+.navbar__mobile-link--active {
+  @apply bg-white text-black border-white;
+}
+
+.navbar__mobile-cta {
+  @apply grid grid-cols-2 gap-3 pt-4;
+}
+
+.navbar__mobile-cta-btn {
+  @apply px-4 py-3 rounded-xl text-center text-sm font-semibold;
+}
+
+.navbar__mobile-cta-btn--secondary {
+  @apply bg-white text-black;
+}
+
+.navbar__mobile-cta-btn--primary {
+  @apply bg-gradient-to-r from-violet-600 to-indigo-600 text-white;
+}

@@ -1,0 +1,130 @@
+@reference "tailwindcss";
+/* Contact — semantic classes */
+
+.contact {
+  @apply py-16 sm:py-24;
+}
+
+.contact__container {
+  @apply mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-6 xl:px-8;
+}
+
+.contact__shell {
+  @apply rounded-[24px] sm:rounded-[32px] bg-gradient-to-br from-violet-600 via-indigo-600 to-cyan-600 p-[1px];
+}
+
+.contact__inner {
+  @apply rounded-[23px] sm:rounded-[31px] bg-[#0A0A0A] overflow-hidden grid lg:grid-cols-[0.95fr_1.05fr];
+}
+
+.contact__left {
+  @apply p-7 sm:p-10 lg:p-12;
+}
+
+.contact__eyebrow {
+  @apply inline-flex px-3 py-1 rounded-full bg-white/10 border border-white/10 text-xs font-semibold tracking-wide text-white/70 uppercase;
+}
+
+.contact__title {
+  @apply mt-4 text-[28px] sm:text-[36px] font-bold tracking-tight text-white leading-tight;
+}
+
+.contact__desc {
+  @apply mt-3 text-[14.5px] leading-relaxed text-white/60;
+}
+
+.contact__links {
+  @apply mt-8 space-y-3;
+}
+
+.contact__link {
+  @apply flex items-center gap-4 rounded-2xl bg-white/[0.06] border border-white/10 p-4 hover:bg-white/10 transition;
+}
+
+.contact__link-icon {
+  @apply w-11 h-11 rounded-xl flex items-center justify-center shrink-0;
+}
+
+.contact__link-icon--primary {
+  @apply bg-white text-black;
+}
+
+.contact__link-icon--ghost {
+  @apply bg-white/[0.08] border border-white/10 text-white;
+}
+
+.contact__link-label {
+  @apply text-xs font-semibold tracking-wide uppercase text-white/40;
+}
+
+.contact__link-value {
+  @apply block text-sm font-medium text-white;
+}
+
+.contact__grid {
+  @apply grid grid-cols-2 gap-3;
+}
+
+.contact__mini {
+  @apply rounded-2xl bg-white/[0.04] border border-white/5 p-4;
+}
+
+.contact__mini-label {
+  @apply text-xs font-semibold tracking-wide uppercase text-white/40 mt-2;
+}
+
+.contact__mini-value {
+  @apply text-sm font-medium text-white;
+}
+
+.contact__ctas {
+  @apply mt-8 flex flex-wrap gap-3;
+}
+
+.contact__cta {
+  @apply px-5 py-2.5 rounded-full text-sm font-semibold transition;
+}
+
+.contact__cta--primary {
+  @apply bg-white text-black hover:bg-white/90;
+}
+
+.contact__cta--secondary {
+  @apply bg-white/10 border border-white/10 text-white hover:bg-white/15;
+}
+
+.contact__form-wrap {
+  @apply bg-[#12131A] border-t lg:border-t-0 lg:border-l border-white/10 p-7 sm:p-10 lg:p-12;
+}
+
+.contact__form-title {
+  @apply text-lg font-bold text-white;
+}
+
+.contact__form-desc {
+  @apply text-sm text-white/50 mt-1;
+}
+
+.contact__form {
+  @apply mt-6 space-y-4;
+}
+
+.contact__label {
+  @apply text-xs font-semibold tracking-wide uppercase text-white/60;
+}
+
+.contact__input {
+  @apply mt-1.5 w-full rounded-xl bg-white/[0.06] border border-white/10 px-4 py-3 text-sm text-white placeholder:text-white/30 focus:outline-none focus:border-violet-500/50 focus:bg-white/[0.08] transition;
+}
+
+.contact__textarea {
+  @apply mt-1.5 w-full rounded-xl bg-white/[0.06] border border-white/10 px-4 py-3 text-sm text-white placeholder:text-white/30 focus:outline-none focus:border-violet-500/50 focus:bg-white/[0.08] transition resize-none;
+}
+
+.contact__submit {
+  @apply w-full inline-flex items-center justify-center gap-2 py-3.5 rounded-xl bg-gradient-to-r from-violet-600 to-indigo-600 text-white font-semibold text-sm hover:opacity-90 transition shadow-lg shadow-violet-600/20;
+}
+
+.contact__form-note {
+  @apply text-center text-xs text-white/30;
+}

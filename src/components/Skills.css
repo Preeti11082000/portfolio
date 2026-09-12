@@ -1,0 +1,58 @@
+@reference "tailwindcss";
+/* Skills — semantic classes */
+
+.skills {
+  @apply py-16 sm:py-24 bg-[#0F1115] border-y border-white/[0.06];
+}
+
+.skills__container {
+  @apply mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-6 xl:px-8;
+}
+
+.skills__eyebrow {
+  @apply flex items-center gap-3 mb-3;
+}
+
+.skills__eyebrow-line {
+  @apply w-8 h-[2px] bg-cyan-400 rounded-full;
+}
+
+.skills__eyebrow-text {
+  @apply text-xs tracking-[0.2em] font-semibold text-cyan-300 uppercase;
+}
+
+.skills__title {
+  @apply text-[32px] sm:text-[40px] font-bold tracking-tight text-white leading-none;
+}
+
+.skills__desc {
+  @apply mt-3 text-white/50;
+}
+
+.skills__grid {
+  @apply mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-5;
+}
+
+.skills__card {
+  @apply rounded-[20px] bg-[#14161F] border border-white/10 p-6 hover:border-violet-500/20 transition h-full;
+}
+
+.skills__card-header {
+  @apply flex items-center gap-3;
+}
+
+.skills__card-icon {
+  @apply w-10 h-10 rounded-xl bg-gradient-to-br from-violet-600 to-indigo-600 flex items-center justify-center text-white font-bold text-sm;
+}
+
+.skills__card-title {
+  @apply font-semibold text-white text-[14px] tracking-wide;
+}
+
+.skills__list {
+  @apply mt-4 flex flex-wrap gap-2;
+}
+
+.skills__pill {
+  @apply px-3 py-1.5 rounded-full bg-white/[0.06] border border-white/10 text-xs font-medium text-white/80 hover:bg-white/10 hover:text-white transition cursor-default;
+}

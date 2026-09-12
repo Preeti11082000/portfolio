@@ -1,6 +1,7 @@
 import { Reveal } from "./Reveal";
 import { education } from "../data/portfolio";
 import { GraduationCap, Award } from "lucide-react";
+import "./Education.css";
 
 export function Education() {
   return (

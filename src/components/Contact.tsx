@@ -3,6 +3,7 @@ import { Reveal } from "./Reveal";
 import { personal } from "../data/portfolio";
 import { Mail, Phone, MapPin, Send, Check, ArrowUpRight } from "lucide-react";
 import { GithubIcon } from "./GithubIcon";
+import "./Contact.css";
 
 export function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });

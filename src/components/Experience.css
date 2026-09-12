@@ -1,0 +1,134 @@
+@reference "tailwindcss";
+/* Experience — semantic classes */
+
+.experience {
+  @apply py-16 sm:py-24 bg-[#0F1115] border-y border-white/[0.06];
+}
+
+.experience__container {
+  @apply mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-6 xl:px-8;
+}
+
+.experience__eyebrow {
+  @apply flex items-center gap-3 mb-3;
+}
+
+.experience__eyebrow-line {
+  @apply w-8 h-[2px] bg-cyan-400 rounded-full;
+}
+
+.experience__eyebrow-text {
+  @apply text-xs tracking-[0.2em] font-semibold text-cyan-300 uppercase;
+}
+
+.experience__title {
+  @apply text-[32px] sm:text-[40px] font-bold tracking-tight text-white leading-none;
+}
+
+.experience__subtitle {
+  @apply mt-3 text-[14px] text-white/50 max-w-xl;
+}
+
+.experience__core {
+  @apply mt-8 rounded-[20px] bg-[#14161F] border border-white/10 p-5 sm:p-6;
+}
+
+.experience__core-title {
+  @apply text-xs font-semibold tracking-[0.14em] uppercase text-white/40;
+}
+
+.experience__core-list {
+  @apply mt-4 grid sm:grid-cols-2 gap-2.5 sm:gap-3;
+}
+
+.experience__core-item {
+  @apply flex items-start gap-2.5 text-[13.5px] leading-relaxed text-white/70;
+}
+
+.experience__core-dot {
+  @apply mt-2 w-1.5 h-1.5 rounded-full bg-violet-400 shrink-0;
+}
+
+.experience__timeline {
+  @apply mt-6 relative;
+}
+
+.experience__line {
+  @apply absolute left-[15px] sm:left-[19px] top-2 bottom-2 w-px bg-white/10;
+}
+
+.experience__list {
+  @apply space-y-3 sm:space-y-4;
+}
+
+.experience__item {
+  @apply relative flex gap-4 sm:gap-5;
+}
+
+.experience__dot-wrap {
+  @apply relative z-10 shrink-0 mt-5;
+}
+
+.experience__dot {
+  @apply w-[9px] h-[9px] sm:w-[11px] sm:h-[11px] rounded-full bg-violet-500 ring-4 ring-violet-500/20 ml-[11px] sm:ml-[14px];
+}
+
+.experience__card {
+  @apply flex-1 min-w-0 rounded-2xl bg-[#14161F] border border-white/10 px-4 py-4 sm:px-5 sm:py-5;
+}
+
+.experience__card-header {
+  @apply flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-4;
+}
+
+.experience__company {
+  @apply text-[14.5px] sm:text-[15px] font-semibold text-white leading-tight;
+}
+
+.experience__role {
+  @apply font-medium text-violet-300;
+}
+
+.experience__sep {
+  @apply font-normal text-white/30;
+}
+
+.experience__meta {
+  @apply mt-1 flex flex-wrap items-center gap-1.5 text-xs text-white/45;
+}
+
+.experience__chip {
+  @apply shrink-0 inline-flex self-start sm:self-center px-3 py-1 rounded-full bg-white text-black text-[11px] font-bold tracking-wide whitespace-nowrap;
+}
+
+.experience__projects {
+  @apply mt-4 pt-4 border-t border-white/5;
+}
+
+.experience__projects-title {
+  @apply text-[11px] font-semibold tracking-[0.12em] uppercase text-white/35;
+}
+
+.experience__projects-grid {
+  @apply mt-3 grid sm:grid-cols-2 gap-3;
+}
+
+.experience__project {
+  @apply rounded-xl bg-[#0F0F14] border border-white/5 px-3.5 py-3;
+}
+
+.experience__project-head {
+  @apply flex justify-end;
+}
+
+.experience__project-badge {
+  @apply inline-flex px-2.5 py-1 rounded-full bg-gradient-to-r text-white text-[10px] font-bold tracking-wide uppercase leading-none;
+}
+
+.experience__project-title {
+  @apply mt-2 text-[13px] font-semibold text-white leading-tight;
+}
+
+.experience__project-desc {
+  @apply mt-1 text-[12px] leading-relaxed text-white/55 line-clamp-2;
+}

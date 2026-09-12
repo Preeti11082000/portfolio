@@ -1,0 +1,98 @@
+@reference "tailwindcss";
+/* Projects — semantic classes */
+
+.projects {
+  @apply py-16 sm:py-24;
+}
+
+.projects__container {
+  @apply mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-6 xl:px-8;
+}
+
+.projects__eyebrow {
+  @apply flex items-center gap-3 mb-3;
+}
+
+.projects__eyebrow-line {
+  @apply w-8 h-[2px] bg-violet-500 rounded-full;
+}
+
+.projects__eyebrow-text {
+  @apply text-xs tracking-[0.2em] font-semibold text-violet-300 uppercase;
+}
+
+.projects__header {
+  @apply flex flex-wrap items-end justify-between gap-4;
+}
+
+.projects__title {
+  @apply text-[32px] sm:text-[40px] font-bold tracking-tight text-white leading-none;
+}
+
+.projects__grid {
+  @apply mt-10 grid md:grid-cols-3 gap-6;
+}
+
+.projects__card {
+  @apply h-full rounded-[20px] bg-[#12131A] border border-white/10 overflow-hidden hover:border-violet-500/30 transition-colors flex flex-col;
+}
+
+.projects__card-accent {
+  @apply h-1 bg-gradient-to-r from-violet-600 to-cyan-500 opacity-80 group-hover:opacity-100 transition;
+}
+
+.projects__card-body {
+  @apply p-6 sm:p-7 flex flex-col flex-1;
+}
+
+.projects__card-icon {
+  @apply w-12 h-12 rounded-2xl bg-white/[0.06] border border-white/10 flex items-center justify-center text-xl;
+}
+
+.projects__card-title {
+  @apply mt-4 text-[17px] font-bold text-white;
+}
+
+.projects__card-desc {
+  @apply mt-2 text-[13.5px] leading-relaxed text-white/60 line-clamp-3;
+}
+
+.projects__card-tech {
+  @apply mt-4 flex flex-wrap gap-1.5;
+}
+
+.projects__tech {
+  @apply px-2.5 py-1 rounded-full bg-white/5 border border-white/10 text-[11px] font-medium text-white/70;
+}
+
+.projects__highlight {
+  @apply mt-5 rounded-xl bg-violet-500/10 border border-violet-500/20 px-3.5 py-2.5 flex gap-2;
+}
+
+.projects__highlight-text {
+  @apply text-xs leading-relaxed text-violet-200/80;
+}
+
+.projects__actions {
+  @apply mt-6 flex gap-2 pt-4 border-t border-white/5;
+}
+
+.projects__btn {
+  @apply flex-1 inline-flex items-center justify-center gap-2 py-2.5 rounded-xl text-xs font-semibold transition;
+}
+
+.projects__btn--primary {
+  @apply bg-white text-black hover:bg-white/90;
+}
+
+.projects__btn--secondary {
+  @apply bg-white/10 border border-white/10 text-white hover:bg-white/15;
+}
+
+.projects__btn--disabled {
+  @apply bg-white/5 border border-white/10 text-white/30 cursor-not-allowed;
+}
+
+.projects__btn--muted {
+  @apply bg-white/[0.04] border border-white/5 text-white/30;
+}
