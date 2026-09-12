@@ -108,11 +108,13 @@ export const projects: Project[] = [
     demo: "https://react-cart-eight.vercel.app/",
   },
   {
-    title: "Daily News Website",
-    description: "A responsive news application integrated with a real-time news API to provide users with up-to-date news content.",
-    tech: ["React.js", "REST API", "JavaScript", "Responsive Design"],
-    highlight: "Real-time API integration and dynamic news content.",
-    icon: "📰",
+    title: "ResumeForge",
+    description: "Resume maker and analyser application built with React integrating OpenRouter free APIs for AI-powered resume analysis and optimization.",
+    tech: ["React.js", "OpenRouter API", "JavaScript", "Responsive Design"],
+    highlight: "AI-powered resume analysis via OpenRouter free APIs.",
+    icon: "📄",
+    github: "https://github.com/Preeti11082000/resume-ai",
+    demo: "https://resume-ai-wheat-five.vercel.app/",
   },
   {
     title: "Crypto Hunter",
