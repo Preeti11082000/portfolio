@@ -104,6 +104,8 @@ export const projects: Project[] = [
     tech: ["React.js", "Redux Toolkit", "JavaScript", "Responsive UI"],
     highlight: "Efficient global state management using Redux Toolkit.",
     icon: "🛒",
+    github: "https://github.com/Preeti11082000/react-cart",
+    demo: "https://react-cart-eight.vercel.app/",
   },
   {
     title: "Daily News Website",
