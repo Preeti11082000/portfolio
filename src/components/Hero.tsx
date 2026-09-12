@@ -108,7 +108,7 @@ export function Hero() {
             className="hero__visual"
           >
             <div className="hidden sm:flex absolute -top-4 -right-2 z-10 items-center gap-2">
-              <span className="px-3 py-1.5 rounded-full bg-emerald-500 text-white text-xs font-semibold shadow-lg">● Available</span>
+              {/* <span className="px-3 py-1.5 rounded-full bg-emerald-500 text-white text-xs font-semibold shadow-lg">● Available</span> */}
             </div>
 
             <div className="hero__card">

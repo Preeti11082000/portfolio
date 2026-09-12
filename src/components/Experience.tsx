@@ -28,7 +28,7 @@ export function Experience() {
           <p className="experience__subtitle">4+ years building scalable frontend products.</p>
         </Reveal>
 
-        <Reveal delay={0.08}>
+        {/* <Reveal delay={0.08}>
           <div className="experience__core">
             <p className="experience__core-title">Core expertise</p>
             <ul className="experience__core-list">
@@ -40,7 +40,7 @@ export function Experience() {
               ))}
             </ul>
           </div>
-        </Reveal>
+        </Reveal> */}
 
         <div className="experience__timeline">
           <div className="experience__line" aria-hidden />
