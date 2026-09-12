@@ -118,6 +118,8 @@ export const projects: Project[] = [
     tech: ["React.js", "Material UI", "Chart.js", "Context API", "CoinGecko API"],
     highlight: "Interactive cryptocurrency tracking and data visualization.",
     icon: "₿",
+    github: "https://github.com/Preeti11082000/Cryptohunter",
+    demo: "https://cryptocurrency-d3c87.web.app/",
   },
 ];
 

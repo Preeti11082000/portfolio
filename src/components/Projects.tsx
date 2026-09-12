@@ -39,15 +39,15 @@ export function Projects() {
                   </div>
 
                   <div className="mt-6 flex gap-2 pt-4 border-t border-white/5">
-                    {p.github ? (
-                      <a href={p.github} target="_blank" rel="noopener noreferrer" className="flex-1 inline-flex items-center justify-center gap-2 py-2.5 rounded-xl bg-white text-black text-xs font-semibold hover:bg-white/90 transition"><GithubIcon size={14} /> GitHub</a>
-                    ) : (
-                      <span className="flex-1 inline-flex items-center justify-center gap-2 py-2.5 rounded-xl bg-white/5 border border-white/10 text-white/30 text-xs font-medium cursor-not-allowed"><GithubIcon size={14} /> Private</span>
-                    )}
                     {p.demo ? (
-                      <a href={p.demo} target="_blank" rel="noopener noreferrer" className="flex-1 inline-flex items-center justify-center gap-2 py-2.5 rounded-xl bg-white/10 border border-white/10 text-white text-xs font-semibold hover:bg-white/15 transition"><ExternalLink size={14} /> Live Demo</a>
+                      <a href={p.demo} target="_blank" rel="noopener noreferrer" className="flex-1 inline-flex items-center justify-center gap-2 py-2.5 rounded-xl bg-white text-black text-xs font-semibold hover:bg-white/90 transition"><ExternalLink size={14} /> Live Demo</a>
                     ) : (
                       <span className="flex-1 inline-flex items-center justify-center gap-1.5 py-2.5 rounded-xl bg-white/[0.04] border border-white/5 text-white/30 text-xs font-medium">Demo unavailable</span>
+                    )}
+                    {p.github ? (
+                      <a href={p.github} target="_blank" rel="noopener noreferrer" className="flex-1 inline-flex items-center justify-center gap-2 py-2.5 rounded-xl bg-white/10 border border-white/10 text-white text-xs font-semibold hover:bg-white/15 transition"><GithubIcon size={14} /> Code</a>
+                    ) : (
+                      <span className="flex-1 inline-flex items-center justify-center gap-2 py-2.5 rounded-xl bg-white/5 border border-white/10 text-white/30 text-xs font-medium cursor-not-allowed"><GithubIcon size={14} /> Private</span>
                     )}
                   </div>
                 </div>
